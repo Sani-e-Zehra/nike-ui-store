@@ -1,0 +1,6 @@
+﻿Test Case ID,Test Scenario,Expected Load,Response Time (Expected),Response Time (Actual),Status,Remarks
+PT-001,Home Page Load Test,1500 users,< 3s,2.9s,Pass,Slight delay under peak load
+PT-002,Product Page Load Test,800 users,< 2.5s,2.3s,Pass,Meets performance standards
+PT-003,Add to Cart Stress Test,400 users adding items,< 2s,1.5s,Pass,Cart updates smoothly
+PT-004,Checkout Process,250 users checking out,< 2s,1.8s,Warning,Checkout API needs optimization
+PT-005,API Response Time,150 requests/sec,< 250ms,220ms,Pass,API response time is optimal
