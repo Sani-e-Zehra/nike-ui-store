@@ -1,0 +1,29 @@
+{
+    "name": "sanity-project",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Sanity Studio for managing Nike UI Store content",
+    "scripts": {
+        "dev": "sanity start",
+        "build": "sanity build",
+        "deploy": "sanity deploy",
+        "graphql-deploy": "sanity graphql deploy"
+    },
+    "dependencies": {
+        "@sanity/client": "^3.3.3",
+        "@sanity/image-url": "^1.0.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "sanity": "^3.74.1",
+        "styled-components": "^6.1.15",
+        "typescript": "^4.0.0"
+    },
+    "devDependencies": {
+        "@sanity/types": "^2.36.2",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
